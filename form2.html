@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form in HTML</title>
+</head>
+
+<body>
+    <form action="/action.php">
+        <h2>Registration Form</h2>
+        <br />
+
+        <h3>Enter your username and password</h3>
+        <input type="text" placeholder="Username" />
+        <br /><br />
+        <input type="password" placeholder="password" />
+        <br />
+        forgot password
+        <br /><br />
+
+        <h3>Enter Your class</h3>
+        <label id="101">
+            <input type="radio" value="ClassXI" name="Class" id="101" />ClassXI
+        </label>
+        <br />
+        <label id="102">
+            <input type="radio" value="ClassXII" name="Class" id="102" />ClassXII
+        </label>
+        <br /><br />
+        <h3>Chose Your subject</h3>
+        <label for="Mathsmatics">
+            <input type="checkbox" value="Mathematics" name="subject" id="NME4250" />Mathsmatics
+        </label>
+        <br>
+        <label for="Python">
+            <input type="checkbox" value="Python" name="subject" id="NCS4105" />Python
+        </label>
+        <br>
+        <label for="Aritifial Intelligent">
+            <input type="checkbox" value="Aritifial Intelligent" name="subject" id="NMS4105" />Aritifial Intelligent
+        </label>
+        <br>
+        <label for="Communication English">
+            <input type="checkbox" value="Communication English" name="subject" id="NCU4105" />Communication English
+        </label>
+        <br><br>
+        <h3>Please enter your city</h3>
+        <select area="city" id="city">
+            <option value="Delhi">Delhi</option>
+            <option value="Lucknow">Lucknow</option>
+            <option value="Ghazipur">Ghazipur</option>
+            <option value="Varanasi">Varanasi</option>
+        </select>
+        <br><br>
+        <h3>Please enter your valuable feeedback</h3>
+        <textarea name="feedback" id="101" placeholder="Please give your valuable feedback"></textarea>
+        <br>
+        <input type="submit" value="submit">
+        <br><br>
+        <h3>Check videos to understand html and css</h3>
+        <iframe width="350" height="220" src="https://www.youtube.com/embed/G3e-cpL7ofc?si=_iLow9b-j0RbIwhE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    </form>
+</body>
+
+</html>
